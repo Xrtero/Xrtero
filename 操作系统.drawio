@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T01:53:14.050Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="gLcqFuSuqiVUrlzBR8z-" version="16.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-19T02:28:25.124Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Ey3oLDaqcgpYqiQcotWv" version="16.3.0" type="github">
   <diagram id="a2CuIqCqKbvbjyX_eEk6" name="操作系统的启动">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,17 +7,115 @@
         <mxCell id="D6BI33M1YBVbn7DMA1we-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D6BI33M1YBVbn7DMA1we-1" target="D6BI33M1YBVbn7DMA1we-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D6BI33M1YBVbn7DMA1we-1" value="按下电源，启动操作系统" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="30" y="240" width="100" height="60" as="geometry" />
+        <mxCell id="D6BI33M1YBVbn7DMA1we-1" value="&lt;font style=&quot;font-size: 16px&quot;&gt;按下电源，启动操作系统&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="20" y="235" width="116.67" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="lBTi12z7aVCauMsgIR6L-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D6BI33M1YBVbn7DMA1we-2" target="lBTi12z7aVCauMsgIR6L-7">
+        <mxCell id="lBTi12z7aVCauMsgIR6L-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D6BI33M1YBVbn7DMA1we-2" target="lBTi12z7aVCauMsgIR6L-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D6BI33M1YBVbn7DMA1we-2" value="CPU处于实模式下" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="D6BI33M1YBVbn7DMA1we-2" value="&lt;font style=&quot;font-size: 16px&quot;&gt;CPU处于实模式下&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="200" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBTi12z7aVCauMsgIR6L-7" value="CS = 0xFFFF&lt;br&gt;IP=0x0000" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="200" y="90" width="120" height="80" as="geometry" />
+        <mxCell id="lBTi12z7aVCauMsgIR6L-30" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.064;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=18;endArrow=open;endFill=0;" edge="1" parent="1" source="lBTi12z7aVCauMsgIR6L-9" target="lBTi12z7aVCauMsgIR6L-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-41" value="" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;endArrow=open;endFill=0;" edge="1" parent="1" source="lBTi12z7aVCauMsgIR6L-9" target="lBTi12z7aVCauMsgIR6L-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-9" value="&lt;font style=&quot;font-size: 16px&quot;&gt;从ROM取指令&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-47" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.281;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=18;endArrow=open;endFill=0;" edge="1" parent="1" source="lBTi12z7aVCauMsgIR6L-11" target="lBTi12z7aVCauMsgIR6L-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-54" value="" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;endArrow=open;endFill=0;" edge="1" parent="1" source="lBTi12z7aVCauMsgIR6L-11" target="lBTi12z7aVCauMsgIR6L-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-11" value="&lt;font style=&quot;font-size: 16px&quot;&gt;执行启动扇区上的程序&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="900" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-15" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;启动扇区就是启动磁盘上的0号柱面，0号磁头，1号扇区，这是操作系统需要编写的文件，通常称为setup.s&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="765" y="120" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-18" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;CS = 0xFFFF&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;IP=0x0000&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="210" y="130" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-22" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="520" y="510" width="456" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-23" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="lBTi12z7aVCauMsgIR6L-22">
+          <mxGeometry width="456" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-24" value="BIOS" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="lBTi12z7aVCauMsgIR6L-23">
+          <mxGeometry width="66" height="40" as="geometry">
+            <mxRectangle width="66" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-25" value="启动扇区文件" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="lBTi12z7aVCauMsgIR6L-23">
+          <mxGeometry x="66" width="116" height="40" as="geometry">
+            <mxRectangle width="116" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-26" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="lBTi12z7aVCauMsgIR6L-23">
+          <mxGeometry x="182" width="94" height="40" as="geometry">
+            <mxRectangle width="94" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-27" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="lBTi12z7aVCauMsgIR6L-23">
+          <mxGeometry x="276" width="89" height="40" as="geometry">
+            <mxRectangle width="89" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-28" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="lBTi12z7aVCauMsgIR6L-23">
+          <mxGeometry x="365" width="91" height="40" as="geometry">
+            <mxRectangle width="91" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-29" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;内存&lt;/b&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="460" y="520" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-32" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;这段ROM也被称为BIOS&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="385" y="150" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-42" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;endArrow=open;endFill=0;" edge="1" parent="1" source="lBTi12z7aVCauMsgIR6L-40" target="lBTi12z7aVCauMsgIR6L-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-43" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="lBTi12z7aVCauMsgIR6L-42">
+          <mxGeometry x="-0.2833" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-45" value="" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;endArrow=open;endFill=0;" edge="1" parent="1" source="lBTi12z7aVCauMsgIR6L-40" target="lBTi12z7aVCauMsgIR6L-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-46" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="lBTi12z7aVCauMsgIR6L-45">
+          <mxGeometry x="0.3333" relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-40" value="自检是否通过" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="230" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-44" value="错误提示" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="610" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-48" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=18;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="235" y="160" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-51" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=18;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="435" y="140" width="50" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-52" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=18;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="915" y="90" width="50" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-56" value="" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;endArrow=open;endFill=0;" edge="1" parent="1" source="lBTi12z7aVCauMsgIR6L-53" target="lBTi12z7aVCauMsgIR6L-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-53" value="调用int0x10中断&lt;br&gt;在屏幕上 输出消息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-55" value="获取磁道容量" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="245" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
