@@ -1,17 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T01:49:58.102Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="hwmNdWuULhzMeiPCiGYd" version="16.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-19T01:53:14.050Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="gLcqFuSuqiVUrlzBR8z-" version="16.3.0" type="github">
   <diagram id="a2CuIqCqKbvbjyX_eEk6" name="操作系统的启动">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="D6BI33M1YBVbn7DMA1we-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D6BI33M1YBVbn7DMA1we-1" target="D6BI33M1YBVbn7DMA1we-2">
+        <mxCell id="D6BI33M1YBVbn7DMA1we-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D6BI33M1YBVbn7DMA1we-1" target="D6BI33M1YBVbn7DMA1we-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D6BI33M1YBVbn7DMA1we-1" value="按下电源，启动操作系统" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="D6BI33M1YBVbn7DMA1we-1" value="按下电源，启动操作系统" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="30" y="240" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="D6BI33M1YBVbn7DMA1we-2" value="CPU处于实模式下" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="lBTi12z7aVCauMsgIR6L-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D6BI33M1YBVbn7DMA1we-2" target="lBTi12z7aVCauMsgIR6L-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6BI33M1YBVbn7DMA1we-2" value="CPU处于实模式下" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="200" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTi12z7aVCauMsgIR6L-7" value="CS = 0xFFFF&lt;br&gt;IP=0x0000" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="90" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
